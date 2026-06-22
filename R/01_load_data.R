@@ -23,3 +23,6 @@ ggplot(combined_epa, aes(x = off_epa, y = def_epa)) +
   scale_y_reverse()+
   labs(title = "2024 NFL Team Efficiency: Offense vs Defense EPA per Play", y="Defensive EPA", x="Offensive EPA")
 ggsave("output/epa_quadrant_2024.png", width = 10, height = 8, dpi = 300)
+
+# Get csv to transfer to Tableau
+write_csv(combined_epa, "output/combined_epa.csv")

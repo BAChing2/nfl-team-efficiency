@@ -14,8 +14,7 @@ I pulled Play-by-Play data from the nflreadr package. I computed the mean EPA pe
 
 # How to Read the Chart:
 
-This chart shows the offensive and defensive EPA for every team in the league in 2024. You can separate this chart into quadrants. If a team is in the top left quadrant, it means they have a good-to-great defense but a poor offense, example is the Houston Texans. If a team is in the bottom left quadrant, it means they have a poor offense and defense, example Carolina Panthers. If a team is in the bottom right quadrant it means they have a good-to-great offense but poor defense, example Washington Commanders. Finally, if a team is in the top right quadrant it means they have a good-to-great offense and defense (a complete team), example the Baltimore Ravens. Notably, only a handful of teams had above average offenses and defenses in 2024. Above average meaning positive EPA for offense and negative EPA for defense.
-# How to Run:
+This chart shows the offensive and defensive EPA for every team in the league in 2024. You can separate this chart into quadrants. If a team is in the top left quadrant, it means they have a good-to-great defense but a poor offense, example is the Houston Texans. If a team is in the bottom left quadrant, it means they have a poor offense and defense, example Carolina Panthers. If a team is in the bottom right quadrant it means they have a good-to-great offense but poor defense, example Washington Commanders. Finally, if a team is in the top right quadrant it means they have a good-to-great offense and defense (a complete team), example the Baltimore Ravens. Notably, only a handful of teams had above average offenses and defenses in 2024. Above average meaning positive EPA for offense and negative EPA for defense. \# How to Run:
 
 You need nflreadr, tidyverse, and nflplotr to reproduce. Here is the script:
 

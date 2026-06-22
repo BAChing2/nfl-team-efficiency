@@ -45,3 +45,7 @@ ggplot(combined_epa, aes(x = off_epa, y = def_epa)) +
   labs(title = "2024 NFL Team Efficiency: Offense vs Defense EPA per Play", y="Defensive EPA", x="Offensive EPA")
 ggsave("output/epa_quadrant_2024.png", width = 10, height = 8, dpi = 300)
 ```
+
+# Interactive Version
+
+An Interactive Version of this analysis is available on Tableau Public: [2024 NFL Team Efficiency] (<https://public.tableau.com/views/NFLTeamEfficiency-EPAAnalysis/Sheet1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link>)
